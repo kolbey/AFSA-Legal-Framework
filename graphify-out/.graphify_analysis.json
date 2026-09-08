@@ -1,0 +1,184 @@
+{
+  "communities": {
+    "0": [
+      "00_general_rules",
+      "01_perimeter_guidance",
+      "07_fees_rules",
+      "11_rules_on_currency_regulation_and_provision_of_information_currency_transactions_aifc",
+      "afsa_legal_framework",
+      "practical_guidance_aifc_aml_ctf_framework",
+      "readme"
+    ],
+    "1": [
+      "03_prudential_rules_for_investment_firms",
+      "04_manual_for_preparation_of_returns_for_investment_firms",
+      "financial_services_framework_regulations"
+    ],
+    "2": [
+      "08_aifc_rules_on_digital_asset_activities",
+      "09_guidance_for_aifc_banks_settlement_digital_asset_operators_providers",
+      "10_rules_mechanisms_cooperation_unbacked_digital_asset_exchanges_second_tier_bank"
+    ],
+    "3": [
+      "02_aifc_rules_on_providing_money_services",
+      "glossary"
+    ],
+    "4": [
+      "05_rules_on_substantial_presence_tax_exemptions_cit_vat",
+      "06_guidance_on_rules_on_substantial_presence_tax_exemptions"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3333333333333333,
+    "1": 0.6666666666666666,
+    "2": 0.6666666666666666,
+    "3": 1.0,
+    "4": 1.0
+  },
+  "gods": [
+    {
+      "id": "afsa_legal_framework",
+      "label": "AFSA / AIFC Legal Regulation and Framework",
+      "degree": 16
+    },
+    {
+      "id": "03_prudential_rules_for_investment_firms",
+      "label": "Prudential Rules for Investment Firms",
+      "degree": 3
+    },
+    {
+      "id": "08_aifc_rules_on_digital_asset_activities",
+      "label": "AIFC Rules on Digital Asset Activities",
+      "degree": 3
+    },
+    {
+      "id": "00_general_rules",
+      "label": "General Rules",
+      "degree": 2
+    },
+    {
+      "id": "01_perimeter_guidance",
+      "label": "Perimeter Guidance",
+      "degree": 2
+    },
+    {
+      "id": "04_manual_for_preparation_of_returns_for_investment_firms",
+      "label": "Manual for Preparation of Returns for Investment Firms",
+      "degree": 2
+    },
+    {
+      "id": "financial_services_framework_regulations",
+      "label": "Financial Services Framework Regulations",
+      "degree": 2
+    },
+    {
+      "id": "09_guidance_for_aifc_banks_settlement_digital_asset_operators_providers",
+      "label": "Guidance for AIFC Banks Conducting Settlement for Digital Asset Trading Facility Operators and Digital Asset Service Providers",
+      "degree": 2
+    },
+    {
+      "id": "10_rules_mechanisms_cooperation_unbacked_digital_asset_exchanges_second_tier_bank",
+      "label": "Rules and Mechanisms of Cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants with Second-Tier Banks of the Republic of Kazakhstan",
+      "degree": 2
+    },
+    {
+      "id": "02_aifc_rules_on_providing_money_services",
+      "label": "AIFC Rules on Providing Money Services",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "AIFC Rules on Providing Money Services",
+      "target": "AFSA / AIFC Legal Regulation and Framework",
+      "source_files": [
+        "02 AIFC RULES ON PROVIDING MONEY SERVICES.pdf",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; bridges separate communities; peripheral node `AIFC Rules on Providing Money Services` unexpectedly reaches hub `AFSA / AIFC Legal Regulation and Framework`"
+    },
+    {
+      "source": "Manual for Preparation of Returns for Investment Firms",
+      "target": "AFSA / AIFC Legal Regulation and Framework",
+      "source_files": [
+        "04 Manual for Preparation of Returns for Investment Firms.pdf",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; bridges separate communities; peripheral node `Manual for Preparation of Returns for Investment Firms` unexpectedly reaches hub `AFSA / AIFC Legal Regulation and Framework`"
+    },
+    {
+      "source": "Rules on the Substantial Presence of AIFC Participants Applying Tax Exemptions for CIT, VAT",
+      "target": "AFSA / AIFC Legal Regulation and Framework",
+      "source_files": [
+        "05 RULES ON THE SUBSTANTIAL PRESENCE OF THE AIFC PARTICIPANTS APPLYING TAX EXEMPTIONS FOR THE PAYMENT OF CIT, VAT.pdf",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; bridges separate communities; peripheral node `Rules on the Substantial Presence of AIFC Participants Applying Tax Exemptions for CIT, VAT` unexpectedly reaches hub `AFSA / AIFC Legal Regulation and Framework`"
+    },
+    {
+      "source": "Guidance on the Rules on the Substantial Presence of AIFC Participants Applying Tax Exemptions for CIT, VAT",
+      "target": "AFSA / AIFC Legal Regulation and Framework",
+      "source_files": [
+        "06 Guidance on the Rules on the Substantial Presence of the Astana International Financial Centre Participants Applying Tax Exemptions for the Payment of Corporate Income Tax, Value Added Tax.pdf",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; bridges separate communities; peripheral node `Guidance on the Rules on the Substantial Presence of AIFC Participants Applying Tax Exemptions for CIT, VAT` unexpectedly reaches hub `AFSA / AIFC Legal Regulation and Framework`"
+    },
+    {
+      "source": "Guidance for AIFC Banks Conducting Settlement for Digital Asset Trading Facility Operators and Digital Asset Service Providers",
+      "target": "AFSA / AIFC Legal Regulation and Framework",
+      "source_files": [
+        "09 Guidance for AIFC Banks conducting settlement for Digital Asset Trading Facility Operators and  Digital Asset Service Providers.pdf",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; bridges separate communities; peripheral node `Guidance for AIFC Banks Conducting Settlement for Digital Asset Trading Facility Operators and Digital Asset Service Providers` unexpectedly reaches hub `AFSA / AIFC Legal Regulation and Framework`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "ambiguous_edge",
+      "question": "What is the exact relationship between `General Rules` and `Perimeter Guidance`?",
+      "why": "Edge tagged AMBIGUOUS (relation: references) - confidence is low."
+    },
+    {
+      "type": "ambiguous_edge",
+      "question": "What is the exact relationship between `AIFC Rules on Providing Money Services` and `Glossary`?",
+      "why": "Edge tagged AMBIGUOUS (relation: references) - confidence is low."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `AFSA / AIFC Legal Regulation and Framework` connect `AFSA / AIFC Legal Regulation and Framework` to `Prudential Rules for Investment Firms`, `AIFC Rules on Digital Asset Activities`, `AIFC Rules on Providing Money Services`, `AIFC Substantial Presence Rules`?",
+      "why": "High betweenness centrality (0.933) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Prudential Rules for Investment Firms` connect `Prudential Rules for Investment Firms` to `AFSA / AIFC Legal Regulation and Framework`?",
+      "why": "High betweenness centrality (0.004) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `AIFC Rules on Digital Asset Activities` connect `AIFC Rules on Digital Asset Activities` to `AFSA / AIFC Legal Regulation and Framework`?",
+      "why": "High betweenness centrality (0.004) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 15 inferred relationships involving `AFSA / AIFC Legal Regulation and Framework` (e.g. with `General Rules` and `Perimeter Guidance`) actually correct?",
+      "why": "`AFSA / AIFC Legal Regulation and Framework` has 15 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `Prudential Rules for Investment Firms` (e.g. with `AFSA / AIFC Legal Regulation and Framework` and `Financial Services Framework Regulations`) actually correct?",
+      "why": "`Prudential Rules for Investment Firms` has 3 INFERRED edges - model-reasoned connections that need verification."
+    }
+  ]
+}
