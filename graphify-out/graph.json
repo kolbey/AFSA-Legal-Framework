@@ -1,0 +1,578 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "investment_firm_prudential_reporting",
+        "label": "Investment Firm Prudential and Reporting Requirements",
+        "nodes": [
+          "03_prudential_rules_for_investment_firms",
+          "04_manual_for_preparation_of_returns_for_investment_firms",
+          "financial_services_framework_regulations"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.65,
+        "source_file": "README.md"
+      },
+      {
+        "id": "substantial_presence_tax_exemption_pair",
+        "label": "AIFC Substantial Presence Tax Exemption Rules and Guidance",
+        "nodes": [
+          "05_rules_on_substantial_presence_tax_exemptions_cit_vat",
+          "06_guidance_on_rules_on_substantial_presence_tax_exemptions",
+          "afsa_legal_framework"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.7,
+        "source_file": "README.md"
+      },
+      {
+        "id": "digital_asset_regulation_flow",
+        "label": "AIFC Digital Asset Regulatory Framework",
+        "nodes": [
+          "08_aifc_rules_on_digital_asset_activities",
+          "09_guidance_for_aifc_banks_settlement_digital_asset_operators_providers",
+          "10_rules_mechanisms_cooperation_unbacked_digital_asset_exchanges_second_tier_bank"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.75,
+        "source_file": "README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "afsa_legal_framework",
+      "label": "AFSA / AIFC Legal Regulation and Framework",
+      "author": null,
+      "captured_at": null,
+      "community": 0,
+      "community_name": "AFSA / AIFC Legal Regulation and Framework",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "afsa / aifc legal regulation and framework",
+      "rationale": "Repository described as the complete collection of legal regulation and framework documents for the AIFC/AFSA.",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "00_general_rules",
+      "label": "General Rules",
+      "author": null,
+      "captured_at": null,
+      "community": 0,
+      "community_name": "AFSA / AIFC Legal Regulation and Framework",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "general rules",
+      "rationale": null,
+      "source_file": "00 GENERAL RULES.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "01_perimeter_guidance",
+      "label": "Perimeter Guidance",
+      "author": null,
+      "captured_at": null,
+      "community": 0,
+      "community_name": "AFSA / AIFC Legal Regulation and Framework",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "perimeter guidance",
+      "rationale": null,
+      "source_file": "01 Perimeter Guidance.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "07_fees_rules",
+      "label": "Fees Rules",
+      "author": null,
+      "captured_at": null,
+      "community": 0,
+      "community_name": "AFSA / AIFC Legal Regulation and Framework",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "fees rules",
+      "rationale": null,
+      "source_file": "07 FEES RULES.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "11_rules_on_currency_regulation_and_provision_of_information_currency_transactions_aifc",
+      "label": "Rules on Currency Regulation and Provision of Information on Currency Transactions in the AIFC",
+      "author": null,
+      "captured_at": null,
+      "community": 0,
+      "community_name": "AFSA / AIFC Legal Regulation and Framework",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "rules on currency regulation and provision of information on currency transactions in the aifc",
+      "rationale": null,
+      "source_file": "11 RULES ON CURRENCY REGULATION AND PROVISION OF INFORMATION ON CURRENCY TRANSACTIONS IN THE AIFC.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "practical_guidance_aifc_aml_ctf_framework",
+      "label": "Practical Guidance to AIFC Anti-Money Laundering and Counter-Terrorist Financing Framework",
+      "author": null,
+      "captured_at": null,
+      "community": 0,
+      "community_name": "AFSA / AIFC Legal Regulation and Framework",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "practical guidance to aifc anti-money laundering and counter-terrorist financing framework",
+      "rationale": null,
+      "source_file": "Practical Guidance to AIFC Anti-Money Laundering and Counter \u2013 Terrorist Financing Framework.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "readme",
+      "label": "AFSA Legal Framework README",
+      "author": null,
+      "captured_at": null,
+      "community": 0,
+      "community_name": "AFSA / AIFC Legal Regulation and Framework",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "afsa legal framework readme",
+      "rationale": null,
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "03_prudential_rules_for_investment_firms",
+      "label": "Prudential Rules for Investment Firms",
+      "author": null,
+      "captured_at": null,
+      "community": 1,
+      "community_name": "Prudential Rules for Investment Firms",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "prudential rules for investment firms",
+      "rationale": null,
+      "source_file": "03 PRUDENTIAL RULES FOR INVESTMENT FIRMS.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "04_manual_for_preparation_of_returns_for_investment_firms",
+      "label": "Manual for Preparation of Returns for Investment Firms",
+      "author": null,
+      "captured_at": null,
+      "community": 1,
+      "community_name": "Prudential Rules for Investment Firms",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "manual for preparation of returns for investment firms",
+      "rationale": null,
+      "source_file": "04 Manual for Preparation of Returns for Investment Firms.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "financial_services_framework_regulations",
+      "label": "Financial Services Framework Regulations",
+      "author": null,
+      "captured_at": null,
+      "community": 1,
+      "community_name": "Prudential Rules for Investment Firms",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "financial services framework regulations",
+      "rationale": null,
+      "source_file": "FINANCIAL SERVICES FRAMEWORK REGULATIONS.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "08_aifc_rules_on_digital_asset_activities",
+      "label": "AIFC Rules on Digital Asset Activities",
+      "author": null,
+      "captured_at": null,
+      "community": 2,
+      "community_name": "AIFC Rules on Digital Asset Activities",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "aifc rules on digital asset activities",
+      "rationale": null,
+      "source_file": "08 AIFC RULES ON DIGITAL ASSET ACTIVITIES .pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "09_guidance_for_aifc_banks_settlement_digital_asset_operators_providers",
+      "label": "Guidance for AIFC Banks Conducting Settlement for Digital Asset Trading Facility Operators and Digital Asset Service Providers",
+      "author": null,
+      "captured_at": null,
+      "community": 2,
+      "community_name": "AIFC Rules on Digital Asset Activities",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "guidance for aifc banks conducting settlement for digital asset trading facility operators and digital asset service providers",
+      "rationale": null,
+      "source_file": "09 Guidance for AIFC Banks conducting settlement for Digital Asset Trading Facility Operators and  Digital Asset Service Providers.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "10_rules_mechanisms_cooperation_unbacked_digital_asset_exchanges_second_tier_bank",
+      "label": "Rules and Mechanisms of Cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants with Second-Tier Banks of the Republic of Kazakhstan",
+      "author": null,
+      "captured_at": null,
+      "community": 2,
+      "community_name": "AIFC Rules on Digital Asset Activities",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "rules and mechanisms of cooperation of unbacked digital asset exchanges and/or centre participants with second-tier banks of the republic of kazakhstan",
+      "rationale": null,
+      "source_file": "10 RULES AND MECHANISMS OF COOPERATION OF UNBACKED DIGITAL ASSET EXCHANGES AND_OR CENTRE PARTICIPANTS AUTHORIZED TO CARRY OUT DIGITAL ASSETS-RELATED ACTIVITIES WITH SECOND-TIER BANK OF THE REPUBLIC OF KAZAKHSTAN.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "02_aifc_rules_on_providing_money_services",
+      "label": "AIFC Rules on Providing Money Services",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "AIFC Rules on Providing Money Services",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "aifc rules on providing money services",
+      "rationale": null,
+      "source_file": "02 AIFC RULES ON PROVIDING MONEY SERVICES.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "glossary",
+      "label": "Glossary",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "AIFC Rules on Providing Money Services",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "glossary",
+      "rationale": null,
+      "source_file": "GLOSSARY.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "05_rules_on_substantial_presence_tax_exemptions_cit_vat",
+      "label": "Rules on the Substantial Presence of AIFC Participants Applying Tax Exemptions for CIT, VAT",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "AIFC Substantial Presence Rules",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "rules on the substantial presence of aifc participants applying tax exemptions for cit, vat",
+      "rationale": null,
+      "source_file": "05 RULES ON THE SUBSTANTIAL PRESENCE OF THE AIFC PARTICIPANTS APPLYING TAX EXEMPTIONS FOR THE PAYMENT OF CIT, VAT.pdf",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "06_guidance_on_rules_on_substantial_presence_tax_exemptions",
+      "label": "Guidance on the Rules on the Substantial Presence of AIFC Participants Applying Tax Exemptions for CIT, VAT",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "AIFC Substantial Presence Rules",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "guidance on the rules on the substantial presence of aifc participants applying tax exemptions for cit, vat",
+      "rationale": null,
+      "source_file": "06 Guidance on the Rules on the Substantial Presence of the Astana International Financial Centre Participants Applying Tax Exemptions for the Payment of Corporate Income Tax, Value Added Tax.pdf",
+      "source_location": null,
+      "source_url": null
+    }
+  ],
+  "links": [
+    {
+      "source": "02_aifc_rules_on_providing_money_services",
+      "target": "glossary",
+      "relation": "references",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.4,
+      "source_file": "GLOSSARY.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "01_perimeter_guidance",
+      "target": "00_general_rules",
+      "relation": "references",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.5,
+      "source_file": "01 Perimeter Guidance.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "06_guidance_on_rules_on_substantial_presence_tax_exemptions",
+      "target": "05_rules_on_substantial_presence_tax_exemptions_cit_vat",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "06 Guidance on the Rules on the Substantial Presence of the Astana International Financial Centre Participants Applying Tax Exemptions for the Payment of Corporate Income Tax, Value Added Tax.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "afsa_legal_framework",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "03_prudential_rules_for_investment_firms",
+      "target": "financial_services_framework_regulations",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.6,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "00_general_rules",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "01_perimeter_guidance",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "02_aifc_rules_on_providing_money_services",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "03_prudential_rules_for_investment_firms",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "04_manual_for_preparation_of_returns_for_investment_firms",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "05_rules_on_substantial_presence_tax_exemptions_cit_vat",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "06_guidance_on_rules_on_substantial_presence_tax_exemptions",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "07_fees_rules",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "08_aifc_rules_on_digital_asset_activities",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "09_guidance_for_aifc_banks_settlement_digital_asset_operators_providers",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "10_rules_mechanisms_cooperation_unbacked_digital_asset_exchanges_second_tier_bank",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "11_rules_on_currency_regulation_and_provision_of_information_currency_transactions_aifc",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "glossary",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "practical_guidance_aifc_aml_ctf_framework",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "09_guidance_for_aifc_banks_settlement_digital_asset_operators_providers",
+      "target": "08_aifc_rules_on_digital_asset_activities",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "09 Guidance for AIFC Banks conducting settlement for Digital Asset Trading Facility Operators and  Digital Asset Service Providers.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "10_rules_mechanisms_cooperation_unbacked_digital_asset_exchanges_second_tier_bank",
+      "target": "08_aifc_rules_on_digital_asset_activities",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "10 RULES AND MECHANISMS OF COOPERATION OF UNBACKED DIGITAL ASSET EXCHANGES AND_OR CENTRE PARTICIPANTS AUTHORIZED TO CARRY OUT DIGITAL ASSETS-RELATED ACTIVITIES WITH SECOND-TIER BANK OF THE REPUBLIC OF KAZAKHSTAN.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "financial_services_framework_regulations",
+      "target": "afsa_legal_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "04_manual_for_preparation_of_returns_for_investment_firms",
+      "target": "03_prudential_rules_for_investment_firms",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "04 Manual for Preparation of Returns for Investment Firms.pdf",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "investment_firm_prudential_reporting",
+      "label": "Investment Firm Prudential and Reporting Requirements",
+      "nodes": [
+        "03_prudential_rules_for_investment_firms",
+        "04_manual_for_preparation_of_returns_for_investment_firms",
+        "financial_services_framework_regulations"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "README.md"
+    },
+    {
+      "id": "substantial_presence_tax_exemption_pair",
+      "label": "AIFC Substantial Presence Tax Exemption Rules and Guidance",
+      "nodes": [
+        "05_rules_on_substantial_presence_tax_exemptions_cit_vat",
+        "06_guidance_on_rules_on_substantial_presence_tax_exemptions",
+        "afsa_legal_framework"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md"
+    },
+    {
+      "id": "digital_asset_regulation_flow",
+      "label": "AIFC Digital Asset Regulatory Framework",
+      "nodes": [
+        "08_aifc_rules_on_digital_asset_activities",
+        "09_guidance_for_aifc_banks_settlement_digital_asset_operators_providers",
+        "10_rules_mechanisms_cooperation_unbacked_digital_asset_exchanges_second_tier_bank"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md"
+    }
+  ],
+  "built_at_commit": "153de95d3e7321851c6bdd4f418e8764489877a6"
+}
